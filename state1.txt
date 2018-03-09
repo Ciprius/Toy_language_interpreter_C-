@@ -1,0 +1,115 @@
+----------------------------------------
+
+EXE Stack :
+
+v=2
+(v=4;(a=40;Print(v)))
+
+SYM Table:
+
+
+OUT List:
+
+
+FILE Table:
+
+
+----------------------------------------
+
+EXE Stack :
+
+(v=4;(a=40;Print(v)))
+
+SYM Table:
+
+v->2
+
+OUT List:
+
+
+FILE Table:
+
+
+----------------------------------------
+
+EXE Stack :
+
+v=4
+(a=40;Print(v))
+
+SYM Table:
+
+v->2
+
+OUT List:
+
+
+FILE Table:
+
+
+----------------------------------------
+
+EXE Stack :
+
+(a=40;Print(v))
+
+SYM Table:
+
+v->4
+
+OUT List:
+
+
+FILE Table:
+
+
+----------------------------------------
+
+EXE Stack :
+
+a=40
+Print(v)
+
+SYM Table:
+
+v->4
+
+OUT List:
+
+
+FILE Table:
+
+
+----------------------------------------
+
+EXE Stack :
+
+Print(v)
+
+SYM Table:
+
+v->4
+a->40
+
+OUT List:
+
+
+FILE Table:
+
+
+----------------------------------------
+
+EXE Stack :
+
+
+SYM Table:
+
+v->4
+a->40
+
+OUT List:
+
+4
+FILE Table:
+
+

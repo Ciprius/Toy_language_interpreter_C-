@@ -1,0 +1,128 @@
+----------------------------------------
+
+EXE Stack :
+
+Opening:D:\Faculta\OOP projects\LabCsharp\LabCsharp\Log1.txt
+(Reading from:f;(Print(g);Closing the file
+))
+
+SYM Table:
+
+
+OUT List:
+
+
+FILE Table:
+
+
+----------------------------------------
+
+EXE Stack :
+
+(Reading from:f;(Print(g);Closing the file
+))
+
+SYM Table:
+
+f->1
+
+OUT List:
+
+
+FILE Table:
+
+1->D:\Faculta\OOP projects\LabCsharp\LabCsharp\Log1.txt
+
+----------------------------------------
+
+EXE Stack :
+
+Reading from:f
+(Print(g);Closing the file
+)
+
+SYM Table:
+
+f->1
+
+OUT List:
+
+
+FILE Table:
+
+1->D:\Faculta\OOP projects\LabCsharp\LabCsharp\Log1.txt
+
+----------------------------------------
+
+EXE Stack :
+
+(Print(g);Closing the file
+)
+
+SYM Table:
+
+f->1
+g->1
+
+OUT List:
+
+
+FILE Table:
+
+1->D:\Faculta\OOP projects\LabCsharp\LabCsharp\Log1.txt
+
+----------------------------------------
+
+EXE Stack :
+
+Print(g)
+Closing the file
+
+
+SYM Table:
+
+f->1
+g->1
+
+OUT List:
+
+
+FILE Table:
+
+1->D:\Faculta\OOP projects\LabCsharp\LabCsharp\Log1.txt
+
+----------------------------------------
+
+EXE Stack :
+
+Closing the file
+
+
+SYM Table:
+
+f->1
+g->1
+
+OUT List:
+
+1
+FILE Table:
+
+1->D:\Faculta\OOP projects\LabCsharp\LabCsharp\Log1.txt
+
+----------------------------------------
+
+EXE Stack :
+
+
+SYM Table:
+
+f->1
+g->1
+
+OUT List:
+
+1
+FILE Table:
+
+
